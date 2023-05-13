@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --blue: #2979ff;
   --indigo: #3d5afe;
   --purple: #d500f9;
@@ -41,6 +41,20 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent; }
 
+  .parallax {
+    /* The image used */
+    background-image: url('file:///Users/yaroslav/Desktop/Учеба/Web nft/img/parallax-g.jpeg');
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
 @-ms-viewport {
   width: device-width; }
 
@@ -7252,7 +7266,7 @@ button.bg-dark:focus {
   color: #ffffff !important; }
 
 .text-primary {
-  color: #1de9b6 !important; }
+  color: #ffffff !important; }
 
 a.text-primary:hover, a.text-primary:focus {
   color: #13c095 !important; }
