@@ -43,7 +43,7 @@ html {
 
   .parallax {
     /* The image used */
-    background-image: url('file:/img/parallax-g.jpeg');
+    background-image: url('file:../img/parallax-g.jpeg');
   
     /* Set a specific height */
     min-height: 500px;
