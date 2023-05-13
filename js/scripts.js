@@ -53,13 +53,6 @@ $(function () {
         return false;
     });
 
-    // scroll top top
-    $('.scroll-top').click(function () {
-        $('html, body').stop().animate({
-            scrollTop: 0
-        }, 1000);
-    });
-
     var BotStar={appId:"s5e30b070-f16a-11ed-8c7b-45d7dd970431",mode:"livechat"};
     !function(t,a){var e=function(){(e.q=e.q||[]).push(arguments)};
     e.q=e.q||[],t.BotStarApi=e;!function(){var t=a.createElement("script");
